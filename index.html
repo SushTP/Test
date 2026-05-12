@@ -899,12 +899,13 @@
             } else if (celebStep === 2) {
                 const audio = document.getElementById('birthday-audio');
                 audio.play().catch(() => { });
-                hint.innerText = "Let the colors fly!";
+                hint.innerText = "Don't expect much, the music code is not working. But Let the colors fly!";
                 btn.innerText = "🎈 Fly Balloons";
                 celebStep = 3;
             } else if (celebStep === 3) {
                 spawnBalloons(document.body);
-                hint.innerText = "Almost there...";
+                hint.innerText = "See balloons code worked :D 
+                    okay Almost there...";
                 btn.innerText = "✨ Show The Message";
                 celebStep = 4;
             } else {
